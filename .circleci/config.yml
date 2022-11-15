@@ -17,7 +17,7 @@ jobs:
       - run:
           name: "Say hello"
           command: "echo Hello, World!"    
-  build:
+  build-and-test:
     docker:
       - image: cimg/python:3.10.5
     steps:
@@ -49,6 +49,6 @@ workflows:
     jobs:
       - say-hello
   
-  build-workflow:
+  build-and-test-workflow:
     jobs:
-      - build
+      - build-and-test
