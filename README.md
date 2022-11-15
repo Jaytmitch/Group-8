@@ -30,8 +30,6 @@ Languages:
 - Using HTML for website layout and design (Front End). 
 - Using CSS for website styling (Front End).
 
-Editing README to trigger a circle ci workflow.
-
 Project Hosted At:  
 http://myface.pythonanywhere.com/
 "# Group-8" 
