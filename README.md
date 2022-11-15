@@ -28,7 +28,9 @@ Using Django framework, a specialized python web framework that enables teams to
 Languages:   
 - Using Python to work alongside the Django framework (Back End).
 - Using HTML for website layout and design (Front End). 
-- Using CSS for website styling (Front End). 
+- Using CSS for website styling (Front End).
+
+Editing README to trigger a circle ci workflow.
 
 Project Hosted At:  
 http://myface.pythonanywhere.com/
