@@ -1,8 +1,11 @@
+# Imports
 from django.contrib import admin
-from .models import Post, UserProfile, Comment, Notification, ThreadModel
+from .models import Post, UserProfile
 
+# Registers the post to the database
 admin.site.register(Post)
+
+# Registers users profile to the database
 admin.site.register(UserProfile)
-admin.site.register(Comment)
-admin.site.register(Notification)
-admin.site.register(ThreadModel)
+
+
