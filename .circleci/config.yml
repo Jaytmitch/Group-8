@@ -26,6 +26,9 @@ jobs:
           key: deps1-{{ .Branch }}-{{ checksum "requirements.txt" }}
       - run:
           command: |
+            python3 manage.py makemigrations --merge
+      - run:
+          command: |
             python3 -m venv venv
             . venv/bin/activate
             pip install -r requirements.txt
