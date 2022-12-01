@@ -34,9 +34,6 @@ jobs:
           paths:
             - "venv"
       - run:
-          command: |
-            python3 manage.py makemigrations --merge
-      - run:
           name: Running tests
           command: |
             . venv/bin/activate
